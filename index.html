@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vicky Kumar — Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Vicky Kumar, a full stack developer building responsive web applications with React, Node.js, Express and MongoDB." />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="color-scheme" content="dark light" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b1020'/%3E%3Ctext x='50' y='68' font-size='54' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%2338bdf8'%3EVK%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Vicky Kumar, back to top">
+        <span class="brand-mark" aria-hidden="true">VK</span>
+        <span class="brand-text">Vicky Kumar</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4.2" fill="currentColor" />
+          <g stroke="currentColor" stroke-width="1.9" stroke-linecap="round">
+            <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6" />
+          </g>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+          <path d="M20 14.2A8.4 8.4 0 0 1 9.8 4a8.6 8.6 0 1 0 10.2 10.2Z" fill="currentColor" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I&rsquo;m</p>
+          <h1 id="hero-title">
+            Vicky <span class="accent">Kumar</span>
+          </h1>
+
+          <p class="hero-role">
+            <span class="role-static">Full Stack Developer</span><span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero-tagline">Crafting Digital Experiences</p>
+
+          <p class="hero-desc">
+            Passionate about building scalable web applications and turning ideas
+            into reality with clean, efficient code.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="https://raw.githubusercontent.com/Vicky-Kushwaha/Portfolio/master/public/vicky_resume.pdf" download="Vicky_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              Download Resume
+              <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false">
+                <path d="M12 3v11m0 0 4-4m-4 4-4-4M4.5 19h15" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+
+          <ul class="social-list" aria-label="Contact links">
+            <li>
+              <a href="https://github.com/Vicky-Kushwaha" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49l-.01-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.85.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.11-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.34 9.34 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9l-.01 2.82c0 .27.18.6.69.49A10.06 10.06 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                <span class="sr-only">GitHub profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/vicky-kumar-352a212ab/" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.9 9.9h4.16V21H2.9V9.9Zm6.9 0h3.99v1.52h.06c.56-.99 1.92-2.03 3.95-2.03 4.22 0 5 2.6 5 5.99V21h-4.16v-5.1c0-1.22-.02-2.79-1.79-2.79-1.8 0-2.07 1.32-2.07 2.7V21H9.8V9.9Z"/></svg>
+                <span class="sr-only">LinkedIn profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:muzvickykerma@gmail.com">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.9" d="M3 6.5h18v11H3z"/><path fill="none" stroke="currentColor" stroke-width="1.9" d="m3.6 7.2 8.4 6 8.4-6"/></svg>
+                <span class="sr-only">Email Vicky</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="code-card">
+            <div class="code-card-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">'Vicky Kumar'</span>,
+  <span class="c-prop">role</span>: <span class="c-str">'Full Stack Developer'</span>,
+  <span class="c-prop">stack</span>: [
+    <span class="c-str">'React'</span>, <span class="c-str">'Node.js'</span>,
+    <span class="c-str">'Express'</span>, <span class="c-str">'MongoDB'</span>
+  ],
+  <span class="c-prop">focus</span>: <span class="c-str">'clean, scalable UI'</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <p class="section-eyebrow">01</p>
+        <h2 class="section-title" id="about-title">About Me</h2>
+
+        <div class="about-grid">
+          <article class="card">
+            <h3 class="card-title"><span aria-hidden="true">&#128640;</span> Full Stack Developer</h3>
+            <p>
+              Hello world! I&rsquo;m Vicky, a full-stack developer turning a passion for
+              coding into real-world solutions. I&rsquo;m thrilled to work in the
+              dynamic and ever-evolving field of software development.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title"><span aria-hidden="true">&#128218;</span> Continuous Learner</h3>
+            <p>
+              Constant learning is my mantra. I work at staying abreast of industry
+              trends and emerging technologies, with a solid foundation in modern web
+              technologies and an appetite for expanding it.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title"><span aria-hidden="true">&#128104;&#8205;&#128187;</span> Team Player</h3>
+            <p>
+              Determination, adaptability and a genuine interest in the craft make me
+              a quick learner and a useful teammate. I bring a fresh perspective and
+              energy to a development team.
+            </p>
+          </article>
+        </div>
+
+        <dl class="stats">
+          <div class="stat">
+            <dt>Public Repositories</dt>
+            <dd>16</dd>
+          </div>
+          <div class="stat">
+            <dt>Technologies</dt>
+            <dd>10+</dd>
+          </div>
+          <div class="stat">
+            <dt>Featured Projects</dt>
+            <dd>5</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <p class="section-eyebrow">02</p>
+        <h2 class="section-title" id="skills-title">Skills &amp; Technologies</h2>
+
+        <div class="skills-grid">
+          <article class="card skill-card">
+            <header class="skill-head">
+              <h3>Frontend Development</h3>
+              <span class="skill-emoji" aria-hidden="true">&#127912;</span>
+            </header>
+
+            <ul class="chips">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Next.js</li>
+              <li>Tailwind CSS</li>
+            </ul>
+
+            <div class="meter">
+              <div class="meter-label">
+                <span>Proficiency</span><span>85%</span>
+              </div>
+              <div class="meter-track" role="img" aria-label="Frontend proficiency 85 percent">
+                <div class="meter-fill" data-value="85"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <header class="skill-head">
+              <h3>Backend Development</h3>
+              <span class="skill-emoji" aria-hidden="true">&#9881;&#65039;</span>
+            </header>
+
+            <ul class="chips">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+              <li>Redis</li>
+              <li>REST APIs</li>
+              <li>Socket.IO</li>
+              <li>BullMQ</li>
+            </ul>
+
+            <div class="meter">
+              <div class="meter-label">
+                <span>Proficiency</span><span>80%</span>
+              </div>
+              <div class="meter-track" role="img" aria-label="Backend proficiency 80 percent">
+                <div class="meter-fill" data-value="80"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <p class="section-eyebrow">03</p>
+        <h2 class="section-title" id="projects-title">Featured Projects</h2>
+
+        <div class="projects-grid">
+
+          <article class="card project-card">
+            <div class="project-top" data-glyph="EC" aria-hidden="true"></div>
+            <h3>Ecommerce Platform</h3>
+            <p>
+              A feature-rich ecommerce website developed from scratch: product
+              management, order processing and user authentication, with seamless
+              user experiences throughout.
+            </p>
+            <ul class="chips chips-sm">
+              <li>React</li><li>Redux</li><li>Node.js</li><li>MongoDB</li><li>Material UI</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://ecommerce-pearl-eta.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://github.com/Vicky-Kushwaha/Ecommerce" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top" data-glyph="SM" aria-hidden="true"></div>
+            <h3>School Management System</h3>
+            <p>
+              A MERN-based school management system with seamless login for
+              administrators, teachers and students, where each role gets the
+              functionality it needs.
+            </p>
+            <ul class="chips chips-sm">
+              <li>React</li><li>Express</li><li>MongoDB</li><li>Node.js</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://vickyschoolmanagement.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://github.com/Vicky-Kushwaha/School-Management-Frontend" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top" data-glyph="WA" aria-hidden="true"></div>
+            <h3>Weather App</h3>
+            <p>
+              A Node.js weather app that simplifies checking current conditions for
+              any city. Enter a city name and the app fetches API data for instant,
+              accurate weather details.
+            </p>
+            <ul class="chips chips-sm">
+              <li>Node.js</li><li>Express</li><li>EJS</li><li>REST API</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://weather-app-tgja.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://github.com/Vicky-Kushwaha/Weather-app" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top" data-glyph="RI" aria-hidden="true"></div>
+            <h3>ReachInbox</h3>
+            <p>
+              A production-ready email job scheduler: scheduled delivery, persistent
+              background jobs, per-sender rate limiting, concurrency control, Slack
+              alerts, email search and a management dashboard.
+            </p>
+            <ul class="chips chips-sm">
+              <li>TypeScript</li><li>Next.js</li><li>Express</li><li>PostgreSQL</li><li>Redis</li><li>BullMQ</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Vicky-Kushwaha/ReachInbox" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top" data-glyph="ST" aria-hidden="true"></div>
+            <h3>Store Management</h3>
+            <p>
+              A modern, full-featured store management application that helps store
+              owners manage products, inventory and user profiles efficiently.
+            </p>
+            <ul class="chips chips-sm">
+              <li>Next.js</li><li>React</li><li>Tailwind CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Vicky-Kushwaha/store-management" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top" data-glyph="CU" aria-hidden="true"></div>
+            <h3>ChatterUp</h3>
+            <p>
+              A real-time chat application built with Node.js, MongoDB and
+              Socket.IO, with a hand-rolled front end in HTML, CSS and
+              JavaScript.
+            </p>
+            <ul class="chips chips-sm">
+              <li>Node.js</li><li>MongoDB</li><li>Socket.IO</li><li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Vicky-Kushwaha/ChatterUp" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="wrap">
+        <p class="section-eyebrow">04</p>
+        <h2 class="section-title" id="education-title">Education</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">&#127891;</div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3>Ram Dayalu Singh College</h3>
+                <span class="year-badge">2019 &ndash; 2022</span>
+              </div>
+              <p class="degree">Bachelor of Science</p>
+              <p class="board">BRABU</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">&#128218;</div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3>Ram Dayalu Singh College</h3>
+                <span class="year-badge">2017 &ndash; 2019</span>
+              </div>
+              <p class="degree">Higher Secondary</p>
+              <p class="board">BSEB</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">&#127979;</div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3>Pantocrator Academy</h3>
+                <span class="year-badge">2016 &ndash; 2017</span>
+              </div>
+              <p class="degree">Matriculation</p>
+              <p class="board">CBSE</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-inner">
+        <p class="section-eyebrow">05</p>
+        <h2 class="section-title" id="contact-title">Get In Touch</h2>
+        <p class="contact-lead">
+          Open to frontend and full stack work. The fastest way to reach me is email.
+        </p>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:muzvickykerma@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://github.com/Vicky-Kushwaha" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/vicky-kumar-352a212ab/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+
+        <p class="contact-mail">
+          <a href="mailto:muzvickykerma@gmail.com">muzvickykerma@gmail.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="copyright">Vicky Kushwaha &copy; <span id="year">2026</span></p>
+      <p><a href="#top">Back to top &uarr;</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
